@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: white;
+}
+.block-pass-login{
+    width: 370px;
+    height: auto;
+    border: 1px solid #e5e5e5;
+    background-color: #f2f2f2;
+    margin: 200px auto;
+}
+.admin-title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.pass-login{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.pass-login li{
+    margin-top: 10px;
+    list-style: none;
+}
+.pass-login label{
+    font: 15px 'Raleway',sans-serif;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.pass-login input{
+    width: 200px;
+    height: 24px;
+    margin-left: 75px;
+    border: 1px solid #d6d6d6;
+    font: 17px 'Raleway',sans-serif;
+    outline: none;
+}
+.submit_enter{
+    border: 1px solid #d6d6d6;
+    background-color: #eaeaea;
+    margin-right: 10px;
+    padding: 4px 6px;
+    font: bold 12px 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.al_right{
+    text-align: right;
+    margin-right: 30px;
+}
+.submit_enter:hover{
+    border: 1px solid #b4b4b4;
+}
+.message-error{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fde5e0;
+    border: 1px solid #fdcdc3;
+    margin-top: 0;
+    text-align: center;
+}

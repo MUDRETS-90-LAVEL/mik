@@ -1,0 +1,13 @@
+body{
+    background-color: #f2f4f9;
+}
+.block-body{
+    width: 100%;
+    height: auto;
+}
+.admin-block-body{
+    width: 100%;
+    margin: 5px auto;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+}

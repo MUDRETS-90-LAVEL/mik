@@ -1,0 +1,10 @@
+.block-conetent-wrap{
+    display: flex;
+}
+.block-content{
+    width: 100%;
+    height: auto;
+    min-height: 650px;
+    margin-left: 201px;
+    border-left: 1px solid #e0e0e0;
+}
