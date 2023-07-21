@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a27675a1-6921-4dc9-8b95-ce590743a91e" name="Changes" comment="" />
+    <list default="true" id="a27675a1-6921-4dc9-8b95-ce590743a91e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/EventController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/TemplateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/TrialController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Trial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/event/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/template/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/trial/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/include/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/include/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Login.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,22 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/OSPanel/domains/mik/app/views",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\mik\app\views" />
       <recent name="D:\OSPanel\domains\mik\public" />
     </key>
   </component>
@@ -63,6 +77,9 @@
       <option name="presentableId" value="Default" />
       <updated>1689866306564</updated>
       <workItem from="1689866308372" duration="6736000" />
+      <workItem from="1689918636176" duration="3417000" />
+      <workItem from="1689925281165" duration="2426000" />
+      <workItem from="1689929760527" duration="11172000" />
     </task>
     <servers />
   </component>

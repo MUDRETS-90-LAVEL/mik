@@ -6,10 +6,34 @@ use  app\core\Model;
 
 class Login extends Model
 {
+    /**
+     * @var string
+     *
+     * Создаем сойство
+     */
     private string $login;
+    /**
+     * @var string
+     *
+     * Создаем свойство
+     */
     private string $password;
+    /**
+     * @var string
+     *
+     * Создаем свойство
+     *
+     */
     public string $messageError = '';
 
+    /**
+     * @param $login
+     * @param $password
+     *
+     * Получаем данные очищяем и вызываем метод проверки
+     *
+     * @return void
+     */
     public function getLoginAndPassword($login, $password): void
     {
         $this->login = $this->clearString($login);
@@ -18,6 +42,13 @@ class Login extends Model
 		$this->checkAuth();
     }
 
+    /**
+     * @param $result
+     *
+     * Принимаем данные проверяе ссесию авторизуем пользователя
+     *
+     * @return void
+     */
     private function authUser($result): void
     {
         if (session_status() == PHP_SESSION_NONE) {
@@ -27,7 +58,14 @@ class Login extends Model
 		header('Location: /main');
     }
 
-    private function checkAuth()
+    /**
+     *
+     * Если логин и пароль не пустые то хешируем пароль и вызываем метод авторизации пользователя
+     * Если записываем ошибку в поля
+     *
+     * @return void
+     */
+    private function checkAuth():void
 	{
         if($this->login and $this->password)
 		{

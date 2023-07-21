@@ -70,4 +70,35 @@ class Db
         $stmt->execute([$login, $password]);
         return $stmt->fetchAll(\PDO::FETCH_ASSOC);
     }
+
+    /**
+     * @param string $table_name
+     * @param int $id
+     *
+     * Удаляет запись в определенной таблице по указанному индификатору
+     *
+     * @return void
+     */
+    public function queryDeletiId (string $table_name, int $id):void
+    {
+        $stmt = $this->db->prepare("DELETE FROM {$table_name} WHERE id=?");
+        $stmt->execute([$id]);
+    }
+
+    /**
+     * @param string $table_name
+     * @param string $trial_text
+     * @param string $floar
+     * @param int $age
+     * @param int $priority
+     *
+     * Добовляет данные в указанную таблицу используя заданные параметры
+     *
+     * @return void
+     */
+    public function queryAddTrial (string $table_name, string $trial_text, string $floar, int $age, int $priority):void
+    {
+        $stmt = $this->db->prepare("INSERT INTO {$table_name} (type_trials, floor, age, priority) VALUES (?,?,?,?)");
+        $stmt->execute([$trial_text, $floar, $age, $priority]);
+    }
 }

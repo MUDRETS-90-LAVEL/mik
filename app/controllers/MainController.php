@@ -10,8 +10,10 @@ class MainController extends Controller
     public function indexAction ()
     {
 		session_start();
-		if ($_SESSION['auth_admin'] == 'yes_auth'){
+		if (isset($_SESSION['auth_admin']) == 'yes_auth'){
+
 			defined('mik') or die('Доступ закрыт');
+
 		$data = [];
 			if (isset($_GET['logout']))
 			{
